@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.outline {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.language {
+    justify-content: flex-end;
+    align-self: center;
+    flex: 0 0 1;
+}
+
+.logo-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex: 2 0 0;
+}
+
+.logo {
+    width: 135px;
+}
+
+.callout {
+    font-size: 20px;
+    color: #E60C2D;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info-advice {
+    /*    margin-top: 20px;*/
+}
+
+.info-bold {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.advice-wrapper {
+    /*    border: 1px solid #ddd;*/
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+    background: #f9f9f9;
+}
+
+strong {
+    color: #E60C2D;
+}
+
+.example {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ok {
+    color: green;
+    font-weight: 700;
+}
+
+.traits {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.trait {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    /*    border: 1px solid #ddd;*/
+    border-radius: 5px;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.trait-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.trait-info {}
+
+.clues {}
+
+.call {}
+
+.video {
+    font-weight: 700;
+}
+
+.warning {
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    .outline {
+        max-width: 600px;
+    }
+    .traits {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .trait {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .outline {
+        max-width: 300px;
+    }
+    .traits {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .trait {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
