@@ -24,37 +24,85 @@
             <div class="info-advice ">Lorsque vous vérifiez l’authenticité d’un courriel, inspectez toujours <strong>l'adresse courriel</strong> de l’émetteur ainsi que les <strong>hyperliens</strong> du message.</div>
             <div class="traits ">
                 <div class="trait ">
-                    <div class="trait-title ">1. Adresse courriel</div>
-                    <div class="trait-info ">TC’est la façon la plus facile et souvent la plus efficace de reconnaître une tentative d’hameçonnage. Voyez si le <strong>domaine</strong> de l’adresse courriel de l’émetteur correspond à celui d’une organisation véritable.
-                        <p>nom@<span class="ok">gouv</span>.ca</p>
-                        <div class="example">Par example:</div> name@<span class="ok">gouv</span>.ca | escroc@<strong>g0uv</strong>.ca
-                        <p>Ne vous laissez pas berner par un sous-domaine! Examinez toujours le <strong>domaine</strong>.</p>
-                        <p>nom@subdomain.<strong>domaine</strong>.ca</p>
-                        <div class="example">Par example:</div> nom@<span class="ok">gouv</span>.ca | escroc@gouv.<strong>g0uv</strong>.com</div>
+                    <div class="trait-header">
+                        <div class="trait-item">1</div>
+                        <div class="trait-icon"><img class="icon" src="images/mail.png"> </div>
+                        <div class="trait-title ">Adresse courriel</div>
+                    </div>
+                    <div class="trait-body">
+                        <div class="trait-info ">TC’est la façon la plus facile et souvent la plus efficace de reconnaître une tentative d’hameçonnage. Voyez si le <strong>domaine</strong> de l’adresse courriel de l’émetteur correspond à celui d’une organisation véritable.
+                            <p>
+                                <div class="highlight">nom@<span class="ok">gouv</span>.ca</div>
+                            </p>
+                            <div class="example">Par example:</div>
+                            <div class="highlight"> name@<span class="ok">gouv</span>.ca | escroc@<strong>g0uv</strong>.ca</div>
+                            <p>Ne vous laissez pas berner par un sous-domaine! Examinez toujours le <strong>domaine</strong>.</p>
+                            <p>nom@subdomain.<strong>domaine</strong>.ca</p>
+                            <div class="example">Par example:</div>
+                            <div class="highlight"> nom@<span class="ok">gouv</span>.ca | escroc@gouv.<strong>g0uv</strong>.com</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="trait ">
-                    <div class="trait-title ">2. Hyperlien dans le courriel
+
+                    <div class="trait-header">
+                        <div class="trait-item">2</div>
+                        <div class="trait-icon"><img class="icon" src="images/finger.png"> </div>
+                        <div class="trait-title ">Hyperlien dans le courriel</div>
                     </div>
-                    <div class="trait-info ">Si le courriel contient un hyperlien,
-                        <span class="example">ne cliquez pas sur celui-ci</span> avant d’avoir <strong>glissé</strong> la souris dessus pour en afficher la destination réelle. L’URL devrait apparaître dans le coin inférieur gauche de votre navigateur.
-                        <p>Encore une fois, vérifiez si l’URL contient un nom de <strong>domaine</strong> légitime. </p>
-                        <p>http://www.<strong>domain</strong>.ca/</p>
-                        <p>http://www.subdomain.<strong>domain</strong>.ca/</p>Si vous avez des doutes quant à l'authenticité d’un courriel, <span class="example">ne prenez pas de risque!</span> Avant tout, tentez une petite recherche en ligne avec les renseignements de l’émetteur.
+                    <div class="trait-body">
+                        <div class="trait-info ">Si le courriel contient un hyperlien,
+                            <span class="example">ne cliquez pas sur celui-ci</span> avant d’avoir <strong>glissé</strong> la souris dessus pour en afficher la destination réelle. L’URL devrait apparaître dans le coin inférieur gauche de votre navigateur.
+                            <p>Encore une fois, vérifiez si l’URL contient un nom de <strong>domaine</strong> légitime. </p>
+                            <div class="highlight">
+                                <p>http://www.<strong>domain</strong>.ca/</p>
+                                <p>http://www.subdomain.<strong>domain</strong>.ca/</p>
+                            </div>
+                            <p>Si vous avez des doutes quant à l'authenticité d’un courriel, <span class="example">ne prenez pas de risque!</span> Avant tout, tentez une petite recherche en ligne avec les renseignements de l’émetteur.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <span><strong>Indices clés </strong> pour reconnaître les courriels d’hameçonnage</span>
             <div class="advice-wrapper ">
-                <div class="clues">Indices clés pour reconnaître les courriels d’hameçonnage
-                    <ul>
-                        <li>Le domaine de l’émetteur est invalide: <span class="example">contact@<strong>g0uv</strong>.ca</span> </li>
-                        <li>Le message n’est pas bilingue</li>
-                        <li>Le texte contient des fautes d’orthographe ou de grammaire</li>
-                        <li>Le courriel insiste pour que vous agissiez immédiatement, faute de quoi quelque chose se produira</li>
-                        <li>En glissant la souris sur l’hyperlien (sans cliquer), vous voyez s’afficher un URL différent <span class="example"> www.<strong>g0uv</strong>.com/privé</span></li>
-                        <li>La salutation du message est impersonnelle ou absente</li>
-                        <li>Aucunes coordonnées ne sont fournies</li>
-                        <li>Le courriel vous demande de transmettre des renseignements personnels</li>
-                    </ul>
+
+                <div class="sides">
+                    <div class="side" style="padding-right:20px;">
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/mail.png"></div>
+                            <div class="clue-content">Le domaine de l’émetteur est invalide: <span class="example">contact@<strong>g0uv</strong>.ca</span> </div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/chat.png"></div>
+                            <div class="clue-content"> Le message n’est pas bilingue</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/x.png"></div>
+                            <div class="clue-content">Le texte contient des fautes d’orthographe ou de grammaire</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/urgent.png"></div>
+                            <div class="clue-content">Le courriel insiste pour que vous agissiez immédiatement, faute de quoi quelque chose se produira</div>
+                        </div>
+                    </div>
+                    <div class="side" style="border-left:1px solid #ddd;padding-left:20px;">
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/cursor.png"></div>
+                            <div class="clue-content">En glissant la souris sur l’hyperlien (sans cliquer), vous voyez s’afficher un URL différent <span class="example"> www.<strong>g0uv</strong>.com/privé</span></div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/hand.png"></div>
+                            <div class="clue-content">La salutation du message est impersonnelle ou absente</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/contact.png"></div>
+                            <div class="clue-content">Aucunes coordonnées ne sont fournies</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/email.png"></div>
+                            <div class="clue-content">Le courriel vous demande de transmettre des renseignements personnels</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="info ">Votre participation à cet exercice d’apprentissage nous permettra d’améliorer nos mesures de sensibilisation à la sécurité en TI. Nous vous encourageons à<span class="example"> ne pas partager</span> de renseignements concernant cette simulation avec vos collègues afin de leur permettre de se fier à leur propre discernement au cas où ils recevraient un courriel de simulation d’hameçonnage.</div>
@@ -69,7 +117,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

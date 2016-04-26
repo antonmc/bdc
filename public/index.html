@@ -23,38 +23,91 @@
             <div class="info-advice ">When investigating the legitimacy of an email, always verify the sender’s <strong>email address</strong> and the <strong>links</strong> within the email.</div>
             <div class="traits ">
                 <div class="trait ">
-                    <div class="trait-title ">1. Email address</div>
-                    <div class="trait-info ">This is the easiest and often most effective way to identify a phishing email. Check to see if the <strong>domain</strong> of the sender’s email address is consistent with a legitimate organization.
-                        <p>name@<span class="ok">gouv</span>.ca</p>
-                        <div class="example">Example:</div> name@<span class="ok">gouv</span>.ca | scammer@<strong>g0uv</strong>.ca
-                        <p>Don’t let a sub-domain fool you! Always look at the <strong>domain</strong>.</p>
-                        <p>name@subdomain.<strong>domain</strong>.ca</p>
-                        <div class="example">Example:</div> name@<span class="ok">gouv</span>.ca | scammer@gouv.<strong>g0uv</strong>.com</div>
+                    <div class="trait-header">
+                        <div class="trait-item">1</div>
+                        <div class="trait-icon"><img class="icon" src="images/mail.png"> </div>
+                        <div class="trait-title ">Email address</div>
+                    </div>
+                    <div class="trait-body">
+                        <div class="trait-info ">This is the easiest and often most effective way to identify a phishing email. Check to see if the <strong>domain</strong> of the sender’s email address is consistent with a legitimate organization.
+                            <p>
+                                <div class="highlight">
+                                    name@<span class="ok">gouv</span>.ca
+                                </div>
+                            </p>
+
+                            <div class="example">Example:</div>
+                            <div class="highlight">name@<span class="ok">gouv</span>.ca | scammer@<strong>g0uv</strong>.ca</div>
+                            <p>Don’t let a sub-domain fool you! Always look at the <strong>domain</strong>.</p>
+                            <p>
+                                <div class="highlight">name@subdomain.<strong>domain</strong>.ca</div>
+                            </p>
+                            <div class="example">Example:</div>
+                            <div class="highlight"> name@<span class="ok">gouv</span>.ca | scammer@gouv.<strong>g0uv</strong>.com</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="trait ">
-                    <div class="trait-title ">2. Link embedded in the email
-                    </div>
-                    <div class="trait-info ">If the email contains a link,
-                        <span class="example">do not click on it</span> until you’ve <strong>hovered</strong> your mouse over it to reveal its true path. The URL should appear at the bottom left corner of your web browser.
-                        <p>Again, check for a legitimate domain name in the URL. </p>
-                        <p>http://www.<strong>domain</strong>.ca/</p>
-                        <p>http://www.subdomain.<strong>domain</strong>.ca/</p> If you’re unsure about the validity of the email, <span class="example">don’t risk it!</span> Before taking any further action, conduct a quick web search to look up the sender information.
 
+                    <div class="trait-header">
+                        <div class="trait-item">2</div>
+                        <div class="trait-icon"><img class="icon" src="images/finger.png"> </div>
+                        <div class="trait-title ">Link embedded in the email</div>
+                    </div>
+                    <div class="trait-body">
+                        <div class="trait-info ">If the email contains a link,
+                            <span class="example">do not click on it</span> until you’ve <strong>hovered</strong> your mouse over it to reveal its true path. The URL should appear at the bottom left corner of your web browser.
+                            <p>Again, check for a legitimate domain name in the URL. </p>
+                            <div class="highlight">
+                                <p>http://www.<strong>domain</strong>.ca/</p>
+                                <p>http://www.subdomain.<strong>domain</strong>.ca/</p>
+                            </div>
+                            <p>If you’re unsure about the validity of the email, <span class="example">don’t risk it!</span> Before taking any further action, conduct a quick web search to look up the sender information.</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
+            <span><strong>Key clues </strong> to identify phishing emails</span>
             <div class="advice-wrapper ">
-                <div class="clues"><strong>Key clues</strong> to identify phishing emails
-                    <ul>
-                        <li>The sender’s email domain is invalid: <span class="example">contact@<strong>g0uv</strong>.ca</span> </li>
-                        <li>The message is not bilingual</li>
-                        <li>There were spelling and grammatical errors in the text</li>
-                        <li>The email urges you to take immediate action or else something will occur</li>
-                        <li>Hovering over the link (without clicking) reveals a different URL:<span class="example"> www.<strong>g0uv</strong>.com/private</span></li>
-                        <li>The greeting was generic or absent</li>
-                        <li>No contact information was provided</li>
-                        <li>The email requests that you to send personal information</li>
-                    </ul>
+
+                <div class="sides">
+                    <div class="side" style="padding-right:20px;">
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/mail.png"></div>
+                            <div class="clue-content">The sender’s email domain is invalid: <span class="example">contact@<strong>g0uv</strong>.ca</span> </div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/chat.png"></div>
+                            <div class="clue-content"> message is not bilingual</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/x.png"></div>
+                            <div class="clue-content">There were spelling and grammatical errors in the text</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/urgent.png"></div>
+                            <div class="clue-content">The email urges you to take immediate action or else something will occur</div>
+                        </div>
+                    </div>
+                    <div class="side" style="border-left:1px solid #ddd;padding-left:20px;">
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/cursor.png"></div>
+                            <div class="clue-content">Hovering over the link (without clicking) reveals a different URL:<span class="example"> www.<strong>g0uv</strong>.com/private</span></div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/hand.png"></div>
+                            <div class="clue-content"> greeting was generic or absent</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/contact.png"></div>
+                            <div class="clue-content">No contact information was provided</div>
+                        </div>
+                        <div class="clue">
+                            <div class="icon-holder"><img class="clue-icon" src="images/email.png"></div>
+                            <div class="clue-content">The email requests that you to send personal information</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="info ">Your participation in this learning exercise will enable us to make improvements to our IT information security awareness measures at BDC. We would encourage you not to share information about this simulation with your colleagues in order to allow them to demonstrate their own savvy should they also receive a phishing simulation email.</div>
