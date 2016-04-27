@@ -180,8 +180,14 @@ strong {
     flex-direction: row;
 }
 
-.side {
+.sideA {
     width: 50%;
+}
+
+.sideB {
+    width: 50%;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
 }
 
 .call {}
@@ -190,7 +196,12 @@ strong {
     padding: 10px;
     border-radius: 5px;
     background: #f9f9f9;
-    /*    border: 1px solid #002468;*/
+    border: 1px solid #002468;
+}
+
+.circle {
+    border: 1px solid #e11635;
+    border-radius: 4px;
 }
 
 .video {
@@ -206,23 +217,10 @@ strong {
     padding: 10px;
 }
 
-@media (max-width: 700px) {
-    .outline {
-        max-width: 600px;
-    }
-    .traits {
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
-    .trait {
-        width: auto;
-        margin-bottom: 20px;
-    }
-}
 
-@media (max-width: 400px) {
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
     .outline {
         max-width: 300px;
     }
@@ -237,7 +235,195 @@ strong {
         margin-right: 20px;
         width: auto;
         border-radius: 5px;
-        padding: 20px;
         margin-bottom: 20px;
+    }
+    .clue-icon {
+        height: 25px;
+    }
+    .sides {
+        display: flex;
+        flex-direction: column;
+    }
+    .sideA {
+        width: 100%;
+    }
+    .sideB {
+        border-left: none;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    .outline {
+        max-width: 480px;
+    }
+    .traits {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .trait {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .clue-icon {
+        height: 25px;
+    }
+    .sides {
+        display: flex;
+        flex-direction: column;
+    }
+    .sideA {
+        width: 100%;
+    }
+    .sideB {
+        border-left: none;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    .outline {
+        max-width: 600px;
+    }
+    
+    .traits {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .trait {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .clue-icon {
+        height: 25px;
+    }
+    
+    .sides {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sideA {
+        width: 100%;
+    }
+    
+    .sideB {
+        border-left: none;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    .outline {
+        display: flex;
+        align-content: center;
+        align-self: center;
+        flex-direction: column;
+        max-width: 800px;
+    }
+    .traits {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .trait {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 50%;
+        /*    border: 1px solid #ddd;*/
+        
+        border-radius: 5px;
+        border: 1px solid #002469;
+    }
+    .clue-icon {
+        height: 50px;
+    }
+    .icon-holder {
+        width: 25%;
+    }
+    .clue-content {
+        width: 65%;
+    }
+    .sides {
+        display: flex;
+        flex-direction: row;
+    }
+    .sideA {
+        width: 50%;
+    }
+    .sideB {
+        width: 50%;
+        border-left: 1px solid #ddd;
+        padding-left: 20px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .outline {
+        display: flex;
+        align-content: center;
+        align-self: center;
+        flex-direction: column;
+        max-width: 800px;
+    }
+    .traits {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .trait {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 50%;
+        /*    border: 1px solid #ddd;*/
+        
+        border-radius: 5px;
+        border: 1px solid #002469;
+    }
+    .clue-icon {
+        height: 50px;
+    }
+    .icon-holder {
+        width: 25%;
+    }
+    .clue-content {
+        width: 65%;
+    }
+    .sides {
+        display: flex;
+        flex-direction: row;
+    }
+    .sideA {
+        width: 50%;
+    }
+    .sideB {
+        width: 50%;
+        border-left: 1px solid #ddd;
+        padding-left: 20px;
     }
 }
