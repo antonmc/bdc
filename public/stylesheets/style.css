@@ -10,22 +10,32 @@ body {
 
 .content {
     display: flex;
+    display: -ms-flexbox;
     align-content: center;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
     justify-content: center;
 }
 
 .outline {
     display: flex;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
     align-content: center;
     align-self: center;
+    -ms-flex-align: center;
     flex-direction: column;
+    -ms-flex-direction: column;
     max-width: 800px;
 }
 
 .banner {
     display: flex;
+    display: -ms-flexbox;
     flex-direction: row;
+    -ms-flex-direction: row;
     align-content: center;
+    -ms-flex-align: center;
     margin-top: 10px;
 }
 
@@ -70,7 +80,6 @@ body {
 }
 
 .advice-wrapper {
-    /*    border: 1px solid #ddd;*/
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
@@ -94,6 +103,8 @@ strong {
 
 .traits {
     display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
     flex-direction: row;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -103,7 +114,6 @@ strong {
     margin-left: 20px;
     margin-right: 20px;
     width: 50%;
-    /*    border: 1px solid #ddd;*/
     border-radius: 5px;
     border: 1px solid #002469;
 }
@@ -115,7 +125,9 @@ strong {
     height: 18px;
     border-radius: 20px;
     flex-direction: row;
+    -ms-flex-direction: row;
     display: flex;
+    display: -ms-flexbox;
     align-self: flex-start;
     margin-left: 10px;
     margin-top: 10px;
@@ -128,6 +140,8 @@ strong {
 
 .trait-header {
     display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
     flex-direction: column;
     align-items: center;
     background: #e11635;
@@ -152,12 +166,16 @@ strong {
 
 .clues {
     display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
 .clue {
     display: flex;
+    display: -ms-flexbox;
     flex-direction: row;
+    -ms-flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 10px;
@@ -177,6 +195,8 @@ strong {
 
 .sides {
     display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
@@ -226,7 +246,9 @@ strong {
     }
     .traits {
         display: flex;
+        display: -ms-flexbox;
         flex-direction: column;
+        -ms-flex-direction: column;
         margin-top: 30px;
         margin-bottom: 20px;
     }
@@ -242,6 +264,8 @@ strong {
     }
     .sides {
         display: flex;
+        display: -ms-flexbox;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .sideA {
@@ -263,6 +287,8 @@ strong {
     }
     .traits {
         display: flex;
+        display: -ms-flexbox;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 30px;
         margin-bottom: 20px;
@@ -279,6 +305,8 @@ strong {
     }
     .sides {
         display: flex;
+        display: -ms-flexbox;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .sideA {
@@ -302,7 +330,9 @@ strong {
     
     .traits {
         display: flex;
+        display: -ms-flexbox;
         flex-direction: column;
+        -ms-flex-direction: column;
         margin-top: 30px;
         margin-bottom: 20px;
     }
@@ -318,7 +348,9 @@ strong {
     
     .sides {
         display: flex;
+        display: -ms-flexbox;
         flex-direction: column;
+        -ms-flex-direction: column;
     }
     
     .sideA {
@@ -338,14 +370,18 @@ strong {
 @media only screen and (min-width: 992px) {
     .outline {
         display: flex;
+        display: -ms-flexbox;
         align-content: center;
         align-self: center;
         flex-direction: column;
+        -ms-flex-direction: column;
         max-width: 800px;
     }
     .traits {
         display: flex;
+        display: -ms-flexbox;
         flex-direction: row;
+        -ms-flex-direction: row;
         margin-top: 30px;
         margin-bottom: 20px;
     }
@@ -369,7 +405,9 @@ strong {
     }
     .sides {
         display: flex;
+        display: -ms-flexbox;
         flex-direction: row;
+        -ms-flex-direction: row;
     }
     .sideA {
         width: 50%;
@@ -385,14 +423,19 @@ strong {
 @media only screen and (min-width: 1200px) {
     .outline {
         display: flex;
+        display: -ms-flexbox;
         align-content: center;
+        -ms-flex-align: center;
         align-self: center;
         flex-direction: column;
+        -ms-flex-direction: column;
         max-width: 800px;
     }
     .traits {
         display: flex;
+        display: -ms-flexbox;
         flex-direction: row;
+        -ms-flex-direction: row;
         margin-top: 30px;
         margin-bottom: 20px;
     }
@@ -400,8 +443,6 @@ strong {
         margin-left: 20px;
         margin-right: 20px;
         width: 50%;
-        /*    border: 1px solid #ddd;*/
-        
         border-radius: 5px;
         border: 1px solid #002469;
     }
@@ -416,6 +457,8 @@ strong {
     }
     .sides {
         display: flex;
+        display: -ms-flexbox;
+        -ms-flex-direction: row;
         flex-direction: row;
     }
     .sideA {
